@@ -2,12 +2,13 @@
     import Hero from "$lib/Hero.svelte";
 
     const images = [
-        '0983.JPG', 
-        'IMG_0469.PNG', 
+        '0983.JPG',
+        'IMG_2530.JPG', 
+         
         'IMG_0470.PNG', 
         'IMG_0513.JPG', 
         'IMG_1451.PNG', 
-        'IMG_2530.JPG', 
+        'IMG_0469.PNG', 
         'IMG_2872.JPG', 
         'IMG_3751.JPG', 
         'IMG_4993.JPG', 
@@ -15,7 +16,6 @@
         'IMG_7288.JPG', 
         'IMG_9774.JPG', 
         'IMG_9897.JPG', 
-        'stock', 
         'Waiting.JPG'
     ]
 </script>

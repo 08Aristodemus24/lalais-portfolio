@@ -28,7 +28,7 @@
     <div class="grid-container">
         {#each images as image, index}
             <div class={`featured-grid-${index + 1}`} data-grid-index={`${index + 1}`}>
-                <img class="featured-grid-image" src={`https://raw.githubusercontent.com/08Aristodemus24/lalais-portfolio/master/client-side/src/assets/mediafiles/${image}`} alt=""/>
+                <img class="featured-grid-image" src={`https://raw.githubusercontent.com/08Aristodemus24/lalais-portfolio/master/client-side/src/assets/mediafiles/compressed/${image}`} alt=""/>
             </div>
         {/each}
     </div>

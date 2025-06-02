@@ -179,10 +179,14 @@ div[class^="featured-grid"] img{
 }
 
 #about-section .about-content{
-    
+
 }
 
-#about-section .about-content h1{
+#about-section .about-content div{
+    padding-block: 2rem;
+}
+
+.about-content div p{
     /* outline: 1px solid red; */
     text-align: center;
     color: white;
@@ -190,8 +194,6 @@ div[class^="featured-grid"] img{
     font-weight: 300;
     font-family: 'League Spartan', sans-serif;
     text-decoration: none;
-
-    padding-block: 2rem;
 }
 
 .about-socials a{
@@ -208,7 +210,7 @@ div[class^="featured-grid"] img{
     fill: white;
     cursor: pointer;
     /* outline: 1px solid lightgreen; */
-
+    
     /* size */
     width: clamp(15px, 2.34375vw, 22.5px);
     height: clamp(15px, 2.34375vw, 22.5px);
@@ -223,7 +225,7 @@ div[class^="featured-grid"] img{
     fill: grey;
 }
 
-#about-section .about-content .bio{
+#about-section .about-content .about-bio{
     /* outline: 1px solid red; */
     text-align: center;
     color: white;

@@ -5,15 +5,11 @@
 section[id*="section"]{
     min-height: calc(100vh - clamp(3.5rem, 9vw, 9rem));
     margin-top: clamp(3.5rem, 9vw, 9rem);
-    font-family: 'Century Gothic', sans-serif;
+    /* font-family: 'Century Gothic', sans-serif; */
 }
 
 #landing-section{
     position: relative;
-
-    min-height: calc(100vh - clamp(3.5rem, 9vw, 9rem));
-
-    margin-top: clamp(3.5rem, 9vw, 9rem);
 }
 
 #landing-section::after{
@@ -38,7 +34,7 @@ section[id*="section"]{
 
     /* design */
     content: '';
-    background-image: url('https://raw.githubusercontent.com/08Aristodemus24/lalais-portfolio/master/client-side/src/assets/mediafiles/stock/journey-painting-wallpaper.jpg');
+    background-image: url('https://raw.githubusercontent.com/08Aristodemus24/lalais-portfolio/master/client-side/src/assets/mediafiles/compressed/IMG_4993.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,8 +75,8 @@ section[id*="section"]{
 
 div[class^="featured-grid"]{
     position: relative;
-    border-radius: 5px;
-    /* border: 1px solid red; */
+    border-radius: 7px;
+    border: 1px solid red;
     overflow: hidden;
 }
 
@@ -175,6 +171,65 @@ div[class^="featured-grid"] img{
     grid-row: 15 / 16;
 }
 
+
+/* ABOUT SECTION */
+#about-section{
+    border: 1px solid red;
+    background-color: black;
+}
+
+#about-section .about-content h1{
+    /* outline: 1px solid red; */
+    text-align: center;
+    color: white;
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: 300;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+
+    padding-block: 2rem;
+}
+
+.about-socials a{
+    display: block;
+
+    color: white;
+    text-decoration: underline;
+
+    transition: color 0.25s ease-in-out;
+}
+
+.about-socials svg{
+    /* design */
+    fill: white;
+    cursor: pointer;
+    /* outline: 1px solid lightgreen; */
+
+    /* size */
+    width: clamp(15px, 2.34375vw, 22.5px);
+    height: clamp(15px, 2.34375vw, 22.5px);
+
+    /* transition */
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+}
+
+.about-socials a:hover svg{
+    fill: grey;
+}
+
+#about-section .about-content .bio{
+    /* outline: 1px solid red; */
+    text-align: center;
+    color: white;
+    font-size: clamp(24px, 2vw, 32px);
+    font-weight: 300;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none;
+
+    padding-block: 2rem;
+}
 
 /* FORM SECTION */
 #data-form-section{

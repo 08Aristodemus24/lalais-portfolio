@@ -178,6 +178,10 @@ div[class^="featured-grid"] img{
     background-color: black;
 }
 
+#about-section .about-content{
+    
+}
+
 #about-section .about-content h1{
     /* outline: 1px solid red; */
     text-align: center;
